@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Relógio Digital</title>
+</head>
+<body>
+    <div class="relogio">
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+    </div>
+
+    <div class="controle">
+        <select>
+            <option value="hora" selected disabled hidden>Horas</option>
+        </select>
+
+        <select>
+            <option value="minuto" selected disabled hidden>Minutos</option>
+        </select>
+
+        <select>
+            <option value="segundo" selected disabled hidden>Segundos</option>
+        </select>
+    </div>
+
+    <div>
+        <button class="botao">Definir Alarme</button>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
